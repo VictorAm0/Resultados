@@ -1,0 +1,176 @@
+*{
+ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+#azul{
+display: flex;
+ flex-direction: column;
+background-image: linear-gradient(#3F48CC,#353977);
+width: 14rem;
+height: 22rem;
+border-radius: 2rem;
+text-align: center;
+align-items: center;
+padding: 1rem;
+}
+
+#azul h1{
+    color: #c8d1d3
+    ;
+    font-size: 18px;    
+    margin-top: 1rem;
+}
+
+#azul h2{
+    color: aliceblue;
+    margin-bottom: 0.7rem;
+    font-size: 22px;
+}
+
+
+#azul p{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left:1.5rem ;
+    margin-right: 1.5rem;
+}
+
+#pont #pmaior{
+    font-size: 3.063rem;
+}
+
+
+
+#pont{
+    display: flex;
+    background-image: linear-gradient(#101670,#7e87fe);
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15%;
+}
+
+#branco{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(232, 235, 234);
+    border-radius: 2rem;
+    width: 14rem;
+    height: 22rem;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+#branco h1{
+    margin-bottom: 2rem;
+    color: #13079ddb ;
+    font-size: 18px;    
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+#branco div{
+    margin: 0.4rem;
+    align-items: center;
+}
+
+
+#branco img{
+margin: 0.6rem;
+}
+
+#Reaction{
+background-color: rgb(236, 226, 226);
+border-radius: 0.7rem;
+width: 80%;
+height: 2.5rem;
+text-align: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+#Memory{
+    background-color: rgb(226, 229, 216);
+    border-radius: 0.7rem;
+    width: 80%;
+    height: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#Verbal{
+    background-color: rgb(216, 223, 225);
+    border-radius: 0.7rem;
+    width: 80%;
+    height: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+#Visual{
+    background-color: rgb(216, 216, 230);
+    border-radius: 0.7rem;
+    width: 80%;
+    height: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#button{
+    font-size: 15px;
+    color: white;
+    display: flex;
+justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    margin: 1.6rem;
+    width: 80%;
+    height: 2rem;
+    border-radius: 1.4rem;
+    border: none;
+    cursor: pointer;
+background-color: rgba(44, 53, 120, 0.954);
+}
+
+#button:hover{
+    background-image: linear-gradient(#070b4b,#5c608a);
+}
